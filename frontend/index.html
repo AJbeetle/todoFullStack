@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO-FULLSTACK</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="home">
+                <div class="openTab">
+                    <h1>TODO APPLICATION</h1>
+                    <div class="buttons">
+                        <button id="SupBut">SINGUP</button>
+                        <button id="SinBut">SINGIN</button>
+                    </div>
+                </div>
+            </div>           
+            <div class="auth" style="display:none">
+                <div class="signup">
+                    <h2>Sign up</h2>
+                    <input type="text" placeholder="Full Name" id="SupName"></input>
+                    <input type="text" placeholder="Create Username" id="SupUser"></input>
+                    <input type="password" placeholder="Create Password" id="SupPass"></input>
+
+                    <div style="display:flex">
+                        <div class="buttons">
+                            <button id="SignUpSubmit">Sign up</button>
+                        </div>
+                        <div class="buttons">
+                            <button id="backToSignIn">either Sign In</button>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <button id="BackfromSup">Back to Home</button>
+                    </div>
+                </div>
+            </div>
+            <div class="entry" style="display:none">
+                <div class="signin">
+                    <h2>Sign in</h2>
+                    <input type="text" placeholder="Username" id="SinUser"></input>
+                    <input type="password" placeholder="Password" id="SinPass"></input>
+                    <div class="buttons">
+                        <button id="SignInSubmit">Sign in</button>
+                    </div>
+                    <div class="buttons">
+                        <button id="BackfromSin">Back to Home</button>
+                    </div>
+                </div>
+            </div>
+            <div class="content" style="display:none">
+                <div class="UserInfo">
+                    <div class="heading">
+                        <div>
+                            <h2>
+                                <!-- Hello : Aayushi Joshi -->
+                            </h2>
+                        </div>
+                        <div class="buttons">
+                            <button id="logout">LOG OUT</button>
+                        </div>
+                    </div>
+                    <div class="addition">
+                        <input type="text" id="addMore" placeholder="Add new Todo">
+                        <div class="buttons">
+                            <button id="AddTodo">ADD</button>
+                        </div>
+                    </div>
+                    <div class="Labels">
+                        <div class="T">
+                            <h3>
+                                Todos
+                            </h3>
+                        </div>
+                        <div class="A">
+                            <h3>
+                                Actions
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="todos">
+                        <!-- <div class="item1">
+                             <div class="elements">
+                                <label>
+                                    <div class="check" >
+                                        <input type="checkbox" id="status"> 
+                                    </div>
+                                    <div class="text">
+                                        <p>Wake up at 4:00 </p>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="buts">
+                                <button id="del" onclick="delTodo(event)"> <img src="./pen.png"> </button>
+                                <button id="edit" onclick="editTodo(event)"><img src="./remove.png"> </button>
+                            </div>
+                        </div>  -->
+                </div>
+
+            </div>
+            <!-- <dialog>
+                <h3>Update Todo</h3>
+                <input type="text" class="updateText" value="">
+                <div class="buttons">
+                    <button class="updateButton">SAVE</button>
+                </div>
+            </dialog> -->
+        </div>
+    </div>
+    <script src="./scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+[
+    {
+        "name": "Aayushi Joshi",
+        "username": "AJ",
+        "password": "123456",
+        "todos": [
+            {
+                "id": 1,
+                "desc": "Add buttons",
+                "status": true
+            },
+            {
+                "id": 2,
+                "desc": "make design more responsive",
+                "status": true
+            },
+            {
+                "id": 3,
+                "desc": "dummy dummy ",
+                "status": true
+            },
+            {
+                "id": 4,
+                "desc": "Happy Me :) !!!",
+                "status": false
+            }
+        ]
+    },
+    {
+        "name": "Ritika",
+        "username": "RK",
+        "password": "123",
+        "todos": []
+    },
+    {
+        "name": "user1",
+        "username": "userOne",
+        "password": "123",
+        "todos": [
+            {
+                "id": 1,
+                "desc": "complete webDev",
+                "status": false
+            },
+            {
+                "id": 2,
+                "desc": "dummy Text",
+                "status": false
+            },
+            {
+                "id": 3,
+                "desc": "DSA topic : two pointer",
+                "status": false
+            },
+            {
+                "id": 4,
+                "desc": "Quantitative Reasoning",
+                "status": false
+            }
+        ]
+    },
+    {
+        "name": "GAMING_USER",
+        "username": "Game",
+        "password": "game1",
+        "todos": [
+            {
+                "id": 1,
+                "desc": "sleep",
+                "status": false
+            },
+            {
+                "id": 2,
+                "desc": "eat",
+                "status": false
+            },
+            {
+                "id": 3,
+                "desc": "play",
+                "status": false
+            }
+        ]
+    },
+    {
+        "name": "NEW USER",
+        "username": "NU",
+        "password": "hey",
+        "todos": [
+            {
+                "id": 1,
+                "desc": "todo 1",
+                "status": false
+            },
+            {
+                "id": 2,
+                "desc": "todo 2",
+                "status": false
+            }
+        ]
+    },
+    {
+        "name": "Dummy User",
+        "username": "DU",
+        "password": "123",
+        "todos": []
+    }
+]
