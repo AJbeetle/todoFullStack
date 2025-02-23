@@ -54,8 +54,18 @@ npm run
 The backend will run on **http://localhost:3000**
 
 ### 4. Start the Frontend Server
-Navigate to the frontend folder and start the server using `npx serve`:
+⚠️ **Note for Windows Users:**  
+If you are using Windows, you need to install **Windows Subsystem for Linux (WSL)** and open a WSL environment before running the npx serve commands.
+
+#### Install WSL (if not already installed):
+Run this command in **PowerShell** as Administrator:
 ```sh
+wsl --install
+```
+
+Open wsl environment, Navigate to the frontend folder and start the server using `npx serve`:
+```sh
+wsl
 cd frontend
 npx serve -p 4000
 ```
